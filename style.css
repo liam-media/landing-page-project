@@ -14,26 +14,51 @@ justify-content: space-around;
 
 .maincontainer {
 display: flex;
-justify-content: center;
-
-}
-
-.intro-section-opening { 
-font-weight: bold;
-display: flex;
-justify-content: center;
-gap: 60px;
-margin-top: 40px;
-align-items: center;
 flex-direction: row;
 }
 
+.intro-section-opening { 
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+font-weight: 900;
+margin-top: 50px;
+gap: -10px;
+}
 
+.div.blurb { 
+font-size: 18px;
+font-weight: lighter;
 
+}
 
 
 ul { 
 display: flex;
 color: white;
 gap: 50px;
+font-size: 18px;
+margin: 0; 
+padding: 0;
 }
+
+
+
+.imageblock { 
+margin-top: 100px;
+
+
+}
+
+button { 
+display: flex; 
+background-color: blue;
+color: white; 
+flex-wrap: wrap;
+margin-top: 15px;
+}
+
+
+
+
