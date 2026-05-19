@@ -1,1 +1,2 @@
 # landing-page-project
+As the name suggests, this design will closely follow the criteria for The Odin Project's landing page project, using Flexbox. While the layout and many of the stylistic choices will remain the same, I will be taking some creative liberties here to make the site resemble the one's I have created for my personal brand in hopes to eventually have a site for myself that I built entirely from scratch!

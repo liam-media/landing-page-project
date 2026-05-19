@@ -1,0 +1,39 @@
+html { 
+background-color: black;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+color: white;
+
+}
+
+.header { 
+display: flex;
+flex: 1;
+justify-content: space-around;
+
+}
+
+.maincontainer {
+display: flex;
+justify-content: center;
+
+}
+
+.intro-section-opening { 
+font-weight: bold;
+display: flex;
+justify-content: center;
+gap: 60px;
+margin-top: 40px;
+align-items: center;
+flex-direction: row;
+}
+
+
+
+
+
+ul { 
+display: flex;
+color: white;
+gap: 50px;
+}
