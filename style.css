@@ -1,6 +1,5 @@
 html { 
-background-color: black;
-font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-family: 'Roboto';
 color: white;
 
 }
@@ -9,12 +8,15 @@ color: white;
 display: flex;
 flex: 1;
 justify-content: space-around;
-
+background-color: #1F2937;
 }
 
 .maincontainer {
 display: flex;
 flex-direction: row;
+justify-content: center;
+align-items: center;
+background-color: #1F2937;
 }
 
 .intro-section-opening { 
@@ -24,14 +26,13 @@ align-items: center;
 flex-direction: column;
 font-weight: 900;
 margin-top: 50px;
-gap: -10px;
+font-size: 48px;
+gap: -20px;
+flex-wrap: wrap;
+max-width: 450px;
+background-color: #1F2937;
 }
 
-.div.blurb { 
-font-size: 18px;
-font-weight: lighter;
-
-}
 
 
 ul { 
@@ -52,13 +53,54 @@ margin-top: 100px;
 }
 
 button { 
-display: flex; 
-background-color: blue;
+background-color: #3882F6;
 color: white; 
-flex-wrap: wrap;
 margin-top: 15px;
+font-weight: 300;
+border-radius: 10px;
+padding-left: 30px;
+padding-right: 30px;
+padding-top: 15px;
+padding-bottom: 15px;
+margin-left: -325px;
 }
 
 
 
+p { 
+font-size: 18px;
+font-style: normal;
+font-weight: lighter;
+}
 
+.informationsection { 
+
+display: flex;
+flex-wrap: wrap;
+justify-content: center; 
+gap: 20px;
+align-items: center;
+color: lightblue;
+margin-top: 50px;
+}
+
+div.square1, div.square2, div.square3 { 
+display: flex; 
+flex-direction: column;
+text-wrap: wrap;
+max-width: 125px;
+justify-content: center;
+align-items: center;
+font-color: black; 
+font-size: 14px;
+margin-top: 0;
+}
+
+.infoblurb { 
+display: flex; 
+flex-direction: column;
+color: black;
+flex-wrap: wrap; 
+
+
+}
