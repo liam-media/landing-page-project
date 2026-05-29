@@ -2,7 +2,6 @@ html {
   font-family: "Roboto";
   color: white;
   margin: 0;
-  padding: 8px 0;
 }
 
 *,
@@ -21,6 +20,7 @@ body {
   justify-content: space-around;
   background-color: #1f2937;
   margin: 0;
+  padding: 8px 0;
 }
 
 .maincontainer {
@@ -118,22 +118,23 @@ p {
 .quotesection {
   display: flex;
   justify-content: center;
-  padding: 75px;
+  padding: 120px 0;
   align-items: center;
   flex: 1;
   font-weight: 300;
   font-size: 36px;
   color: #1f2937;
   font-style: italic;
-  margin-top: 100px;
   flex-wrap: wrap;
   background-size: 100%;
-  max-width: 1700px;
+  max-width: 800px;
+  margin: 0 auto;
 }
 
 .quotecontainer {
   background-color: #e5e7eb;
   width: 100%;
+  margin-top: 75px;
 }
 
 .cta {
@@ -190,7 +191,6 @@ p.introsectionblurb {
 }
 
 .quotesignoff {
-  display: flex;
   text-align: right;
-  justify-content: right;
+  width: 100%;
 }
