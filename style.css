@@ -2,7 +2,6 @@ html {
   font-family: "Roboto";
   color: white;
   margin: 0;
-  padding: 8px 0;
 }
 
 *,
@@ -190,7 +189,6 @@ p.introsectionblurb {
 }
 
 .quotesignoff {
-  display: flex;
   text-align: right;
-  justify-content: right;
+  width: 100%;
 }
